@@ -1,0 +1,53 @@
+
+html body {
+	width: 100%;
+	background: none;
+	height: 100%;
+}
+
+ .full{
+  background: url(../img/flag.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header{
+	background: rgba(0, 0, 0, 0.7);
+	margin-top: 10%;
+	margin-left: 10%;
+	border-radius: 20px;
+}
+.header-title{
+	color: white;
+	margin-left: 2%;
+}
+
+.header-text{
+	color: white;
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.page{
+	position: absolute;
+}
+
+.richmond{
+	background: rgba(255,255,255,0.5);
+	width: 110%;
+	bottom: 0;
+}
+
+.city-title{
+	font-size: 75px;
+	text-decoration: underline;
+	color: black;
+}
+.city-subtitle{
+	font-size: 50px;
+	text-decoration: italic;
+}
+
+
