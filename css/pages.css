@@ -1,0 +1,36 @@
+
+html body {
+	height: 100%;
+	width: 100%;
+	background: none;
+}
+
+.full{
+background: url(../assets/img/bg.png);
+
+}
+
+ .banner-image{
+   	background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+ }
+
+
+.content{
+	height: 400px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.content-title{
+font-size: 30px;
+}
+
+.content-rest{
+
+}

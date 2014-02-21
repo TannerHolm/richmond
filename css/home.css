@@ -1,0 +1,65 @@
+
+html body {
+	width: 100%;
+	background: none;
+	height: 100%;
+}
+
+ .full{
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header{
+	background: rgba(0, 0, 0, 0.7);
+	margin-top: 10%;
+	margin-left: 10%;
+	border-radius: 20px;
+}
+.header-title{
+	color: white;
+	margin-left: 2%;
+}
+
+.header-text{
+	color: white;
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.page{
+	position: absolute;
+}
+
+.richmond{
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+	/*background: rgba(255,255,255,0.5);*/
+	width: 110%;
+	position: fixed;
+	bottom: 0;
+}
+
+.city-title{
+	font-size: 75px;
+	text-decoration: underline;
+	color: black;
+}
+.city-subtitle{
+	font-size: 50px;
+	text-decoration: italic;
+}
+
+.search{
+	width: 50%;
+
+}
