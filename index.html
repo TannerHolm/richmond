@@ -134,11 +134,12 @@
 
     <div>
         <div class="row page">
-            <div class="col-lg-6 col-sm-12 header">
-                <h1 class="header-title">Information<hr></h1>
-                <p class="header-text">Here's a spot for some awesome intro text. Check out the fixed nav at the bottom!</p>
-                <p class="header-text">Set the background image in the CSS, pair it with some cool fonts, and you will have a rockin' start to a cool portfolio.
+            <div class="col-lg-6 col-sm-12 info">
+                <h1 class="info-title">Information<hr></h1>
+                <p class="info-text">Here's a spot for some awesome intro text. Check out the fixed nav at the bottom!</p>
+                <p class="info-text">Set the background image in the CSS, pair it with some cool fonts, and you will have a rockin' start to a cool portfolio.
                 </p>
+                <a href="#"><button class="btn btn-lg btn-success" style="color:black;">Click here for more info </button></a>
             </div>
         </div>
     </div>
@@ -146,15 +147,17 @@
 <div class="richmond">
     
     <div class="row">
-        <div class="col-md-12 city-title">
+        <div class="col-sm-5 city-title">
             Richmond City            
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12 city-subtitle ">
+         <div class="col-sm-2 logo">
+            <img src="assets/img/small_logo.gif" alt="">      
+        </div>
+        <div class="col-sm-5 pull-left city-subtitle ">
             Home of Black and White Days         
         </div>
     </div>
+
 </div>
 
 
@@ -179,7 +182,7 @@ var images=[
 var randomNumber = Math.floor(Math.random() * images.length);
 var bgImg = 'url(' + images[randomNumber] + ')';
 
-$('.full').css({'background':bgImg, 'background-size':'cover', });
+$('html').css({'background':bgImg, 'background-size':'cover', 'background-repeat':'no-repeat', '-webkit-background-size': 'cover', '-moz-background-size': 'cover', '-o-background-size': 'cover', });
 
 });
 
